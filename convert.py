@@ -28,7 +28,7 @@ DATA_DIR = '/data'
 # Check for output file
 num_input_files = nargin - 1
 if (sys.argv[nargin-2] == "-o"):
-    output_file = sys.argv[nargin]
+    output_file = sys.argv[nargin-1]
     num_input_files = num_input_files - 2
 else:
     output_file = 'out.osm.pbf'
