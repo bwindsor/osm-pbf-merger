@@ -1,0 +1,1 @@
+docker run -it --rm -v /c/Users/bjw2/Documents/Git/osm-pbf-merger:/data osm-pbf-merger:latest rhode-island-latest.osm.pbf hawaii-latest.osm.pbf
